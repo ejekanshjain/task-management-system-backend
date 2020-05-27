@@ -29,9 +29,9 @@ router.post('/register', async (req: Request, res: Response) => {
                     email: user.email,
                     createdAt: user.createdAt,
                     updatedAt: user.updatedAt
-                }
-            },
-            token
+                },
+                token
+            }
         })
     } catch (err) {
         if (err.code === 11000)
@@ -63,9 +63,9 @@ router.post('/login', async (req: Request, res: Response) => {
                     email: user.email,
                     createdAt: user.createdAt,
                     updatedAt: user.updatedAt
-                }
-            },
-            token
+                },
+                token
+            }
         })
     } catch (err) {
         console.log(err)
