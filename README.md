@@ -40,7 +40,7 @@ JWT_SECRET=secret
 npm run dev
 ```
 
-## Build and Start the Server
+## Start the Server
 ```
 npm start
 ```
@@ -48,9 +48,4 @@ npm start
 ## Build the project
 ```
 npm run build
-```
-
-## Run the Production Server
-```
-npm run prod
 ```
